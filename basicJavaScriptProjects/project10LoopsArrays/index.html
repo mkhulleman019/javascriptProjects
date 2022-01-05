@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Loops and Arrays </title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+<!--While Loop-->
+        <h1>While Loop</h1>
+            <p id="loop"></p>
+            <button onclick="callLoop()"> Click here to begin loop </button>
+    
+<!--Sring Length-->
+        <h1>String Length</h1>
+            <p id="string"> How many characters are in the string "Marvel is better than DC"?</p>
+            <button onclick="strLength()"> Click here to find out! </button>
+    
+<!--For Loop-->
+        <h1>For Loop</h1>
+            <p id="marvel"> Who are the original 6 Avengers? </p>
+            <button onclick="marvelLoop()"> Click here to find out! </button>
+    
+<!--Array-->
+        <h1>Array</h1>
+            <p id="character"> Which Marvel character are you? </p>
+            <button onclick="assignCharacter()"> Click here to find out! </button>
+
+<!--Constant-->
+        <h1>Constant</h1>
+            <p id="constant"> Spoliers Ahead! Lets see how Iron Man does in Endgame </p>
+            <button onclick="constantFunction()"> Click here </button>
+          
+            
+<!--Let Keyword-->
+        <h1>Let Keyword</h1>
+            <p id="letKW"> Let's use the let keyword to change the value of a variable in a code block </p>
+            <p id="letKW1"></p> <!--Added numbers 1 and 2 because when running the function, it would only display the last value of x-->
+            <p id="letKW2"></p>
+            <button onclick="letKey()"> Let's go! </button>
+
+<!-- Return Statement-->
+        <h1>Return Statement</h1>
+        <p id="ret1"></p> <!-- JS will call this id to display a value-->
+
+<!--Let Object-->
+        <h1> Let Object </h1>
+            <p id="letObj"></p>
+
+<!-- Break and Continue Loops-->
+        <h1>Break and Continue Loops</h1>
+    <!--Break-->
+            <p> This is a <strong>break</strong> loop.</p>
+            <p id="brLoop"></p>
+
+    <!--Continue-->
+            <p> This is a loop with a <strong>continue</strong></p>
+            <p id="contLoop"></p>
+
+        <script src="./js/main.js"></script> <!--Placing the script at the bottom allows the return statement to run correctly. Also ,allows page to load faster. -->
+    </body>
+
+</html>
