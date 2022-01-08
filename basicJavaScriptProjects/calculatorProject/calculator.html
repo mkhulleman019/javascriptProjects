@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <meta name="description" content="An online calculator made using html, css, and js">
+        <meta name="author" content="MaKayla Hulleman">
+        <meta charset="UTF-8">
+        <script src="./js/calculatorJS.js" defer></script>
+        <link rel="stylesheet" href="./css/calculatorCSS.css">
+    </head>
+
+    <body>
+        <div class="calculator">
+            <input type="text" class="calculatorScreen" value="0" disabled />
+            <div class="calculatorKeys">
+
+<!--Operator Buttons-->
+                <button type="button" class="operator" value="+">+</button>
+                <button type="button" class="operator" value="-">-</button>
+                <button type="button" class="operator" value="*">&times;</button>
+                <button type="button" class="operator" value="/">&divide;</button>
+            
+<!--Top Row Numbers- written right to left in ascending order to mimic calculator/numpad-->
+                <button type="button" value="7">7</button>
+                <button type="button" value="8">8</button>
+                <button type="button" value="9">9</button>
+
+<!--Second Row Numbers- written right to left in ascending order to mimic calculator/numpad-->
+                <button type="button" value="4">4</button>
+                <button type="button" value="5">5</button>
+                <button type="button" value="6">6</button>
+
+<!--Third Row Numbers- written right to left in ascending order to mimic calculator/numpad-->
+                <button type="button" value="1">1</button>
+                <button type="button" value="2">2</button>
+                <button type="button" value="3">3</button>
+
+<!--Bottom Row Number - 0-->
+                <button type="button" value="0">0</button>
+
+<!--Decimal, AC, and Equals -->
+                <button type="button" class= "decimal function" value=".">.</button>
+                <button type="button" class= "allClear function" value="allClear">AC</button>
+                <button type="button" class= "equalSign operator" value="=">=</button>
+            </div>
+        </div>
+    </body>
+</html>
