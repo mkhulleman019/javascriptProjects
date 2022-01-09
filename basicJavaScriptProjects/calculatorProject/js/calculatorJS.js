@@ -39,7 +39,7 @@ function inputDecimal(dot) {
 
 //This section handles operators//
 function handleOperator(nextOperator) {
-    const { firstOperand, displayValue, operator} = calculator 
+    const { firstOperand, displayValue, operator} = calculator;
     //When the operator key is pressed, we convert the current number//
     //displayed on the screen to a number and then store the result in//
     //calculatorFirstOperand if it doesnt already exist//
@@ -49,7 +49,7 @@ function handleOperator(nextOperator) {
     if (operator && calculator.waitSecondOperand) {
         calculator.operator = nextOperator;
         return;
-    } 
+    }  
     if (firstOperand == null) {
         calculator.firstOperand = valueOfInput;
     }  else if (operator) { //checks if operator already exists//
@@ -102,7 +102,7 @@ function handleOperator(nextOperator) {
             return;
         }
         
-        if(!target.classList.contains("operator")) {
+        if(target.classList.contains("operator")) {
             handleOperator(target.value);
             updateDisplay();
             return;
