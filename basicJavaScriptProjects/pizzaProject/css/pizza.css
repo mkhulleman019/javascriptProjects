@@ -1,0 +1,101 @@
+html{
+    background-image: url("../images/pizza.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: fixed;
+}
+
+body {
+    width: 70%;
+    height: 600px;
+    background-color: rgba(255, 250, 240, 0.767);
+    margin: 30px 30px 30px auto;
+    padding: 30px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h1, h3 {
+    font-family: 'Orelega One', cursive;
+    font-weight: 300;
+    color:black;
+}
+
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategray;
+}
+
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#frmMenu {
+    width: 600px;
+    height: 200px;
+    margin-left: -130px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 10px auto;
+    float: right;
+    font-weight: 300;
+}
+
+.menuLeft {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.menuCenter {
+	width: 200px;
+	height: 200px;
+    margin-bottom: 30px;
+	float: left;
+}
+
+.menuCenter p {
+    font-size: .75em;
+}
+
+.menuRight {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    float: right;
+}
+
+.menuRight p {
+    font-size: .75em;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 10px auto;
+    float: left;
+    font-weight: 300;
+}
+
+#cart {
+    top: 0;
+    margin: 10px auto;
+    width: 400px;
+    height: 200px;
+    font-weight: 300;
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+}

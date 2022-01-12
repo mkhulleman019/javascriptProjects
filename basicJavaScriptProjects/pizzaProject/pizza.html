@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pizza Drill</title>
+        <meta http-equiv="content-type" content="text/html"; charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <script src="./js/pizza.js" defer></script>
+        <link rel="stylesheet" href="./css/pizza.css">
+<!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+<!--Menu-->
+        <div id="menuBG">
+            <h1 style="margin: 0 0px 0 2px;">Pizza Drill</h1>
+            <input id="btnOrder" type="button" onclick="getReceipt()" 
+                value="Place Order">
+            <form id="frmMenu">
+                <p> All pizzas come with one free topping. More toppings are available for an additional charge. </p>
+<!-- Menu Left -- Sizes-->
+                <div class="menuLeft">
+                    <h3>Size:</h3>
+                    <input class="size" type="radio" name="size" 
+                        value="Personal"> Personal <br>
+                    <input class="size" type="radio"
+                        value="Small"> Small <br>
+                    <input class="size" type="radio"
+                        value="Medium"> Medium <br>
+                    <input class="size" type="radio"
+                        value="Large"> Large <br>
+                    <input class="size" type="radio"
+                        value="Extra Large"> Extra Large <br>
+                </div>
+
+<!--Menu Right -- Meat Toppings-->
+                <div class="menuCenter">
+                    <h3>Meats:</h3>
+                    <input class="toppings" type="checkbox"
+                        value="Pepperoni"> Pepperoni <br>
+                    <input class="toppings" type="checkbox"
+                        value="Sausage"> Sausage <br>
+                    <input class="toppings" type="checkbox"
+                        value="Canadian Bacon"> Canadian Bacon <br>
+                    <input class="toppings" type="checkbox"
+                        value="Ground Beef"> Ground Beef <br>
+                    <input class="toppings" type="checkbox"
+                        value="Bacon"> Bacon <br>
+                    <input class="toppings" type="checkbox"
+                        value="Chicken"> Chicken <br>
+                    <input class="toppings" type="checkbox"
+                        value="Salami"> Salami <br>
+                    <p> Addtional meats are $1 per option</p>
+                    
+                </div>
+
+<!--Menu Right -- Veggie Toppings-->
+                <div class="menuRight">
+                    <h3>Veggies:</h3>
+                    <input class="toppings" type="checkbox"
+                        value="Onions"> Onions <br>
+                    <input class="toppings" type="checkbox"
+                        value="Green Peppers"> Green Peppers <br>
+                    <input class="toppings" type="checkbox"
+                        value="Red Peppers"> Red Peppers <br>
+                    <input class="toppings" type="checkbox"
+                        value="Mushrooms"> Mushrooms <br>
+                    <input class="toppings" type="checkbox"
+                        value="Black Olives"> Black Olives <br>
+                    <input class="toppings" type="checkbox"
+                        value="Green Olives"> Green Olives <br>
+                    <input class="toppings" type="checkbox"
+                        value="Jalapenos"> Jalapenos <br>
+                    <p> Additional veggies are $1 per option</p>
+                </div>
+<!--Checkout-->
+                <div id="cart">
+                    <div id="showText"></div>
+                    <div id="totalPrice"></div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
