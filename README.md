@@ -1,4 +1,4 @@
-This file will be used for my JavaScript practice and assignments through The Tech Academy.
+This file contains my JavaScript practice and assignments through The Tech Academy.
 
 Async, defer , and debug - practiced using the listed commands for loading js.
 
